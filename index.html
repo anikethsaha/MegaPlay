@@ -1,117 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-   
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MegaPlay</title>
-<!--==========================================================================================================================--> 
-                                                  <!--  START Styles  -->
-                                                  
+  <meta charset="UTF-8">
+  <title>timeline</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-<!--  ===Fontawesome CSS===  -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/fontawesome-free-5.3.1-web/all.min.css" type="text/css">    
-            
-<!--  ===BootStrap CSS===  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-reboot.min.css" type="text/css">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  
+      <link rel="stylesheet" href="css/style.css">
 
-<!--  ===Styles CSS===  -->
-    <link rel="stylesheet" href="./css/styles.css">
-                                                 
-                                                 
-                                                 
-                                                  <!--  END Styles  -->  
-<!--==========================================================================================================================--> 
-                                                                      
+  
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="menu-icon">
-                <i class="fa fa-bars fa-2x"></i>
-            </div>
-            <div class="logo">
-                LOGO
-                <img src="./img/Logo_1.png" alt="" id="l1">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-
-
-            <div class="content">
-                  <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
-                  <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
-            </div>
-    
-
-      <script type="text/javascript">
-
-      // Menu-toggle button
-
-      $(document).ready(function() {
-            $(".menu-icon").on("click", function() {
-                  $("nav ul").toggleClass("showing");
-            });
-      });
-
-      // Scrolling Effect
-
-      $(window).on("scroll", function() {
-            if($(window).scrollTop()) {
-                  $('nav').addClass('black');
-            }
-
-            else {
-                  $('nav').removeClass('black');
-            }
-      })
-
-
-      </script>
-
-   
-   
-    
+  
+<div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title">history of mega play</h2>
+    <h3 class="timeline-header__subtitle">event of the year</h3>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="http://i.cdn.ensonhaber.com/resimler/diger/ataturk_3473.jpg"/>
+        <h2 class="timeline__content-title">2008</h2>
+        <p class="timeline__content-desc">text</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="http://gazetemanifesto.com/wp-content/uploads/2015/11/mustafa-kemal.jpg"/>
+        <h2 class="timeline__content-title">2009-2012</h2>
+        <p class="timeline__content-desc">text 2</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="https://upload.wikimedia.org/wikipedia/commons/2/20/Ataturk-1930-amongpublic.jpg"/>
+        <h2 class="timeline__content-title">2013</h2>
+        <p class="timeline__content-desc">text</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="http://cdn.yemek.com/uploads/2014/11/ataturk-10-kasim.jpg"/>
+        <h2 class="timeline__content-title">2014</h2>
+        <p class="timeline__content-desc">text</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="http://ataturk.istanbul.gov.tr/GalleryLibrary/12.jpg"/>
+        <h2 class="timeline__content-title">2015</h2>
+        <p class="timeline__content-desc">text</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="http://gcube.milliyet.com.tr/Detail/2016/01/04/ataturk-un-yeni-fotograflari-ataturk-mustafa-kemal-ataturk-1533128.jpg"/>
+        <h2 class="timeline__content-title">2016</h2>
+        <p class="timeline__content-desc">text</p>
+      </div>
+    </div>
      
+       <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="http://ataturk.istanbul.gov.tr/GalleryLibrary/12.jpg"/>
+        <h2 class="timeline__content-title">2017<h2>
+        <p class="timeline__content-desc">text</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="megaplay">
+      <div class="timeline__content"><img class="timeline__img" src="http://gcube.milliyet.com.tr/Detail/2016/01/04/ataturk-un-yeni-fotograflari-ataturk-mustafa-kemal-ataturk-1533128.jpg"/>
+        <h2 class="timeline__content-title">2018</h2>
+        <p class="timeline__content-desc">text</p>
+      </div>
+    </div>
       
-<!--==========================================================================================================================-->       
-                                         <!--          START SCRIPTS             -->
-                                     
-<!--  ===BootStrap Js===  -->
-    <script type="text/javascript" src="./js/bootstrap/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap/popper.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </div>
+   
+   </div>
+ 
 
-<!--  ===Scripts Js===  -->
-    <script type="text/javascript" src="./js/scripts.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
-<!--  ===Jquery Js ()===  -->
-    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script> 
-                                    
-                                          <!--          END SCRIPTS             -->
-<!--==========================================================================================================================-->
+    <script src="js/index.js"></script>
+
 </body>
 </html>
