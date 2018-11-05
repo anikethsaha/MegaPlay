@@ -1,106 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MegaPlay</title>
-<!--==========================================================================================================================--> 
+<!--==========================================================================================================================-->
                                                   <!--  START Styles  -->
-                                                  
+
 
 <!--  ===Fontawesome CSS===  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/fontawesome-free-5.3.1-web/all.min.css" type="text/css">    
-            
-<!--  ===BootStrap CSS===  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-reboot.min.css" type="text/css">
-    
+    <link rel="stylesheet" href="./css/fontawesome-free-5.3.1-web/all.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/fullpage.css" type="text/css">
+
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.css" type="text/css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 <!--  ===Styles CSS===  -->
     <link rel="stylesheet" href="./css/styles.css">
-                                                 
-                                                 
-                                                 
-                                                  <!--  END Styles  -->  
-<!--==========================================================================================================================--> 
-                                                                      
+    <script type="text/javascript" src="./js/fullpage.js"></script>
+    <link rel="stylesheet" href="./css/themify-icons.css"  type="text/css" >
+
+                                                  <!--  END Styles  -->
+<!--==========================================================================================================================-->
+
 </head>
 <body>
-    <header>
+    <header id="#header">
         <nav>
-            <div class="menu-icon">
-                <i class="fa fa-bars fa-2x"></i>
+            <div class="container">
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                       <div class="col-md-3">
+                        <div class="logo">
+                            <img src="./img/Logo_1.png" alt="" id="l1">
+                        </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <div class="menu">
+                                        <ul class="">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 border-l-white">
+                                    <div class="row">
+                                            <a className="col-md-4"><i class="fa fa-instagram micon" aria-hidden="true"></i></a>
+                                            <a className="col-md-4"><i class="fa fa-facebook-official micon" aria-hidden="true"></i></a>
+                                            <a className="col-md-4"><i class="fa fa-youtube-play micon" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
             </div>
-            <div class="logo">
-                LOGO
-                <img src="./img/Logo_1.png" alt="" id="l1">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+
         </nav>
     </header>
 
 
 
-            <div class="content">
-                  <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
-                  <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
-            </div>
-    
+            <!--  -->
+            <div id="fullpage">
+                    <div class="section active" id="section0">
+                        <div class="container">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-md-4 offset-4">
+                                        <h1 style="    text-align: center;">MEGAPLAY</h1>
+
+                                    </div>
+                                    <div class="col-md-12 ">
+                                        <div class="row">
+                                            <div class="col-md-8 offset-2">
+                                                <div class="story-frame">
+                                                    <p>
+                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                                    </p>
+                                                    <p>
+                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="section" id="section1"></div>
+                    <div class="section" id="section2"><h1>No wraps, no extra markup</h1></div>
+                    <div class="section" id="section3"><h1>Just the simplest demo ever</h1></div>
+                </div>
 
       <script type="text/javascript">
 
-      // Menu-toggle button
-
-      $(document).ready(function() {
-            $(".menu-icon").on("click", function() {
-                  $("nav ul").toggleClass("showing");
-            });
-      });
-
-      // Scrolling Effect
-
-      $(window).on("scroll", function() {
-            if($(window).scrollTop()) {
-                  $('nav').addClass('black');
+        if('serviceWorker' in navigator){
+                $(window).on('load',(e) => {
+                    navigator.serviceWorker.register('./sw.js')
+                    .then(registration => console.log('ServiceWorker registration successful with scope: ', registration.scope))
+                    .catch(err => console.log(`Service Worker: Error: ${err}`));
+                })
             }
 
-            else {
-                  $('nav').removeClass('black');
-            }
-      })
+
 
 
       </script>
 
-   
-   
-    
-     
-      
-<!--==========================================================================================================================-->       
+
+
+
+
+
+<!--==========================================================================================================================-->
                                          <!--          START SCRIPTS             -->
-                                     
+
 <!--  ===BootStrap Js===  -->
     <script type="text/javascript" src="./js/bootstrap/jquery.slim.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap/popper.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap/bootstrap.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -109,8 +153,8 @@
     <script type="text/javascript" src="./js/scripts.js"></script>
 
 <!--  ===Jquery Js ()===  -->
-    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script> 
-                                    
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+
                                           <!--          END SCRIPTS             -->
 <!--==========================================================================================================================-->
 </body>
